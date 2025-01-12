@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Menu Home</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      header {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+      nav {
+        background: #444;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+      }
+      nav a {
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: background 0.3s;
+      }
+      nav a:hover {
+        background: #555;
+      }
+      .content {
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Selamat Datang di Website Resep</h1>
+    </header>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#resep">Resep</a>
+      
+      
+    </nav>
+
+    <div class="content">
+      <h2>Menu Utama</h2>
+      <p>Temukan berbagai resep menarik dan nikmati pengalaman memasak yang menyenangkan!</p>
+    </div>
+  </body>
+</html>
+
+
+<div class="resep-section" id="resep">
+    
+    </ul>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Resep </title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f4f4f4;
+      }
+      header {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+      .search-container {
+        margin: 20px 0;
+        text-align: center;
+      }
+      .search-container input[type="text"] {
+        padding: 10px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .search-container input[type="button"] {
+        padding: 10px 15px;
+        border: none;
+        background: #333;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .search-container input[type="button"]:hover {
+        background: #555;
+      }
+      .recipe-container {
+        margin-top: 20px;
+      }
+      .recipe-card {
+        background: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Resep Pencarian</h1>
+    </header>
+
+    <div class="search-container">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Cari resep..."
+      />
+      <input
+        type="button"
+        value="Cari"
+        id="searchBtn"
+      />
+    </div>
+
+    <div
+      class="recipe-container"
+      id="recipeContainer"
+    >
+      <div
+        class="recipe-card"
+        data-recipe="nasi goreng"
+      >
+        <h2>CAra membuat Nasi Goreng</h2>
+        <p>Resep nasi goreng yang lezat dan mudah dibuat.</p>
+        <main>
+			<article>
+				<h2>Bahan-bahan yang perlu di siapkan</h2>
+				<p>
+					<Li>1 paha ayam  atas bawah rebus, suwir ayamnya</Li>
+                    <Li>2 buah telur, kocok lepas</Li>
+                    <Li>150 g udang tanpa kuli</Li>
+                    <Li>5 buah bakso sapi, potong-potong</Li>
+                    <Li>500 g nasi putih</Li>
+                    <Li>2 sdm kecap manis Bango</Li>
+                    
+				</p>
+				<p>*Bumbu tumbuk</p>
+				<p>
+				<uL> 
+					<Li>3 buah cabai merah besar</Li>
+                    <Li>3 buah cabai merah keriting</Li>
+                    <Li>2 siung bawang putih</Li>
+                    <Li>6 butir bawang merah</Li>
+                </uL>
+                <p>Bahan pelengkap</p>
+                <Li>Telur</Li>
+                <h2>Cara membuat</h2>
+                <p>
+                    <oL>
+                        <Li>Panaskan minyak. Tumis bumbu tumbuk kasar sampai harum. Sisihkan di pinggir wajan. Masukkan telur. Aduk sampai berbutir.</Li>
+                        <Li>Tambahkan ayam, udang, bakso. Aduk rata. Tambahkan nasi putih. Aduk- aduk. Masukkan KECAP MANIS BANGO, garam, dan gula pasir. Aduk sampai matang.
+
+                        </Li>
+                        <Li>Masukkan daun bawang. Aduk rata. Sajikan bersama telur ceplok dan taburan bawang merah goreng.</Li>
+                    </oL>
+                </p>
+      </div>
+      <div
+        class="recipe-card"
+        data-recipe="sate ayam"
+      >
+        <h2>Cara membuat Ayam bakar</h2>
+        <p>Resep sate ayam yang enak dan menggugah selera.</p>
+        <h2>Bahan-bahan yang perlu di siapkan</h2>
+				<p>
+					<Li>1 ekor ayam, potong sesuai selera</Li>
+				</p>
+				<p>*Bumbu halus</p>
+				<p>
+				<uL> 
+					<Li>6 siung bawang merah</Li>
+					<Li>4 siung bawang putih</Li>
+					<li>3 buah cabe merah keriting (sesuai selera)</li>
+					<Li>2 ruas kunyit</Li>
+					<Li>1 ruas jahe</Li>
+					<Li>1 sdt ketumbar bubuk</Li>
+					<Li>1/2 sdt merica bubuk</Li>
+				</uL>
+				</p>
+				<p>*Bahan tambahan</p>
+				<p>
+					<Li>4 lembar daun salam</Li>
+					<Li>2 batang serai, gebrek</Li>
+					<Li>2 sdm gula merah</Li>
+					<Li>Garam secukupnya</Li>
+					<Li>Minyak untuk memanggang</Li>
+				</p>	
+					
+				<h2>Cara membuat</h2>	
+				<p>
+					<oL>
+						<Li> Haluskan semua bumbu menggunakan blender atau ulekan hingga benar-benar halus</Li>
+						<Li>Lumuri ayam dengan bumbu halus hingga rata. Diamkan selama minimal 30 menit agar bumbu meresap.</Li>
+						<Li> Panaskan teflon atau panggangan. Olesi dengan sedikit minyak. Panggang ayam hingga matang dan berwarna kecoklatan. BOlak-balik agar matang merata.</Li>
+						<img src="aym1.jpg">
+						<Li> Sambil memanggang, siapkan bumbu tambahan. Campurkan daun salam, serai, gula merah, kecap manis,dan garam.</Li> 
+						<Li> Sesekali olesi ayam dengan bumbu tambahan agar lebih halum dan berwarna</Li>
+						<Li>Setelah matang, angkat ayam dan sajikan selagi hangat dengan nasi putih, sambal dan lalapan</Li>
+						<img src="aym2.jpg">
+					</oL>
+					
+
+				</p>
+      </div>
+      <div
+        class="recipe-card"
+        data-recipe="rendang"
+      >
+        <h2>Cara membuat Rendang</h2>
+        <p> rendang daging yang kaya rasa.</p>
+        <h2>Bahan-bahan</h2>
+        <p>
+            <Li>2 kg daging sapi, potong dadu</Li>
+            <Li>5 liter santan</Li>
+            <Li>Secukupnya minyak goreng</Li>
+            <Li>4 batang serai</Li>
+            <Li>8-10 lembar daun salam</Li>
+            <Li>10-12 lembar daun jeruk</Li>
+            <Li>2 ons lengkuas parut</Li>
+            <Li>Secukupnya penyedap rasa</Li>
+            
+            
+        </p>
+        <h2>Bumbu halus :</h2>
+        <p>
+            <Li>4 ons cabai keriting</Li>
+            <Li>1 ons cabai rawit</Li>
+            <Li>3 ons bawang merah</Li>
+            <Li>2 ons bawang putih</Li>
+            <Li>Secukupnya garam</Li>
+            
+        </p>
+        <h2>Bumbu halus kering (sangrai) :</h2>
+        <p>
+            <Li>4 sdt ketumbar</Li>
+            <Li>6 buah bunga lawang
+            </Li>
+            <Li>2 biji pala
+            </Li>
+            <Li>2 sdt jinten
+            </Li>
+
+        </p>
+        <h2>Cara membuat</h2>
+        <p>
+            <oL>
+                <Li>Haluskan bumbu halus dan bumbu kering.</Li>
+                <Li>Panaskan minyak dan tumis bumbu halus hingga wangi dan matang sempurna.
+
+                </Li>
+                <Li>Masukkan santan, aduk-aduk hingga mendidih. Masukkan juga lengkuasnya. (Gunakan api cenderung kecil saja)
+
+                </Li>
+                <Li>Setelah santan sedikit mengental masukkan daging sapi 2 kg yang sudah dipotong-potong. Aduk terus hingga santan menyusut dan rendang berwarna hitam.
+
+                </Li>
+                <Li>Rendang sudah matang dan siap diangkat. InsyaAllah rendang anti gagal ini mah. Selamat mencoba mom.
+
+                </Li>
+            </oL>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("searchBtn").addEventListener("click", function () {
+        const query = document.getElementById("searchInput").value.toLowerCase();
+        const recipes = document.querySelectorAll(".recipe-card");
+
+        recipes.forEach((recipe) => {
+          const recipeName = recipe.getAttribute("data-recipe").toLowerCase();
+          if (recipeName.includes(query)) {
+            recipe.style.display = "block";
+          } else {
+            recipe.style.display = "none";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Artikel dengan Reaksi</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				margin: 20px;
+			}
+			.reaction-buttons {
+				margin-top: 20px;
+			}
+			.reaction-buttons button {
+				margin-right: 20px;
+				padding: 20px 15px;
+				cursor: pointer;
+			}
+			.comments-section {
+				margin-top: 20px;
+			}
+			.comment {
+				margin: 5px 0;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="reaction-buttons">
+			
+			<button onclick="toggleCommentSection()">💬 Komentar</button>
+		</div>
+
+		<div class="comments-section" id="comments-section" style="display: none">
+			<h3>Komentar</h3>
+			<input type="text" id="comment-input" placeholder="Tulis komentar..." />
+			<button onclick="addComment()">Kirim</button>
+			<div id="comments-list"></div>
+		</div>
+
+		<script>
+			let likeCount = 0;
+			
+			function addReaction(type) {
+				if (type === "like") {
+					likeCount++;
+					alert("Anda menyukai artikel ini! Total suka: " + likeCount);
+				} else if (type === "dislike") {
+					dislikeCount++;
+					alert(
+						"Anda tidak menyukai artikel ini! Total tidak suka: " + dislikeCount
+					);
+				}
+			}
+
+			function toggleCommentSection() {
+				const commentsSection = document.getElementById("comments-section");
+				commentsSection.style.display =
+					commentsSection.style.display === "none" ? "block" : "none";
+			}
+
+			function addComment() {
+				const commentInput = document.getElementById("comment-input");
+				const commentsList = document.getElementById("comments-list");
+
+				if (commentInput.value.trim() !== "") {
+					const newComment = document.createElement("div");
+					newComment.className = "comment";
+					newComment.textContent = commentInput.value;
+					commentsList.appendChild(newComment);
+					commentInput.value = ""; // Clear input
+				} else {
+					alert("Komentar tidak boleh kosong!");
+				}
+			}
+		</script>
+	</body>
+</html>
+<html>
+	<head><!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-90HJTGPBQG"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-90HJTGPBQG');
+	</script></head>
+	<body>
+		</body>
+	</html>
+	<title>Halaman Suka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: left;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selamat datang di situs saya!</h1>
+    <p>Jika Anda menyukai halaman ini, silakan klik tombol di bawah ini:</p>
+    
+    <button id="likeButton">Suka</button>
+    <p id="likeCount">Jumlah Suka: 0</p>
+
+    <script>
+        let count = 100;
+
+        document.getElementById("likeButton").addEventListener("click", function() {
+            count++;
+            document.getElementById("likeCount").innerText = "Jumlah Suka: " + count;
+        });
+    </script>
+</body>
+</html>
+
